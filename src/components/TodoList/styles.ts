@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ListWrapper = styled.div`
   flex: 1;
-	overflow: auto;
+  overflow: auto;
 `;
 
 export const List = styled.ul`
@@ -18,6 +18,7 @@ export const EmptyState = styled.div`
   padding: 2rem;
   text-align: center;
   color: #6b7280;
+  flex: 1;
 `;
 
 export const EmptyTitle = styled.p`
